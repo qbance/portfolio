@@ -1,6 +1,6 @@
 async function chargerProjets(){
     try {
-        const response = await fetch('../JSON/index.json')
+        const response = await fetch('JSON/index.json')
 
         if (!response.ok){
             throw new Error(`HTTP error! Status: ${response.status}`);
