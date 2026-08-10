@@ -2,7 +2,7 @@
 
 async function chargerPortfolio(){
     try {
-         const response = await fetch('../JSON/index.json')
+         const response = await fetch('JSON/index.json')
 
         if (!response.ok){
    throw new Error(`HTTP error! Status: ${response.status}`);
@@ -103,7 +103,7 @@ async function chargerPortfolio(){
 
 async function chargerProjetsIndex() {
     try {
-        const response = await fetch('../JSON/index.json');
+        const response = await fetch('JSON/index.json');
         const data = await response.json();
         const projects = data.projets.projects; 
         const conteneur = document.getElementById('liste-projets-index');
