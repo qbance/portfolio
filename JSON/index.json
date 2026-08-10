@@ -3,7 +3,7 @@
     "intro": "Bonjour, je suis",
     "nom": "Quentin BANCE",
     "titre": "Développeur Web",
-    "photo": "../images/Photo de profil.jpg",
+    "photo": "images/Photo de profil.jpg",
     "description": [
         "Actuellement en Bachelor Développeur Web."
       ],
@@ -74,23 +74,23 @@
         "titre": "//Autodidacte",
         "sousTitre": "Formation Web en autodidacte",
         "sites":[
-          {"entete": "SORTIE", "nom": "Grafikart:", "photo":"../images/grafikart.png", "description":"Plateforme d'apprentissage web."},
-          {"entete": "SORTIE", "nom":"Openclassrooms:", "photo":"../images/openclassrooms.png", "description":"Formations certifiantes en ligne."},
-          {"entete": "SORTIE", "nom": "MDN:", "photo":"../images/MDN.png", "description":"Documentation de référence pour développeurs."}
+          {"entete": "SORTIE", "nom": "Grafikart:", "photo":"images/grafikart.png", "description":"Plateforme d'apprentissage web."},
+          {"entete": "SORTIE", "nom":"Openclassrooms:", "photo":"images/openclassrooms.png", "description":"Formations certifiantes en ligne."},
+          {"entete": "SORTIE", "nom": "MDN:", "photo":"images/MDN.png", "description":"Documentation de référence pour développeurs."}
         ]
       },
       "profil_ecole":{
         "titre": "Mon école",
         "ecole":[
-          {"entete": "SORTIE", "nom": "MyDigitalSchool", "photo": "../images/mydigitalschool.png", "description":"MyDigitalSchool est une école française spécialisée dans les métiers du web et du numérique. Elle propose des cursus du post-bac jusqu'à Bac+5 (bachelors et cycles mastères) dans des domaines clés comme le marketing digital, le développement web, le webdesign, la création numérique et la cybersécurité."}
+          {"entete": "SORTIE", "nom": "MyDigitalSchool", "photo": "images/mydigitalschool.png", "description":"MyDigitalSchool est une école française spécialisée dans les métiers du web et du numérique. Elle propose des cursus du post-bac jusqu'à Bac+5 (bachelors et cycles mastères) dans des domaines clés comme le marketing digital, le développement web, le webdesign, la création numérique et la cybersécurité."}
         ]
       },
       "profil_passion":{
         "titre": "Mes passions",
         "passion": [
-          {"entete":"SORTIE", "nom":"Skateboard", "photo" : "../images/skateboard.png", "description":"Pratique urbaine et pumptrack."},
-          {"entete":"SORTIE", "nom":"Randonnée et Trekking", "photo" : "../images/rando-trek.png", "description":"Exploration des sentiers et aventures en autonomie."},
-           {"entete":"SORTIE", "nom":"Electronique", "photo" : "../images/electronique.png", "description":"Projets hardware et circuits."}
+          {"entete":"SORTIE", "nom":"Skateboard", "photo" : "images/skateboard.png", "description":"Pratique urbaine et pumptrack."},
+          {"entete":"SORTIE", "nom":"Randonnée et Trekking", "photo" : "images/rando-trek.png", "description":"Exploration des sentiers et aventures en autonomie."},
+           {"entete":"SORTIE", "nom":"Electronique", "photo" : "images/electronique.png", "description":"Projets hardware et circuits."}
        ]
       },
       "competences":{
@@ -124,7 +124,7 @@
       [
       {
           "nom": "Gestionnaire de dépenses",
-          "icone":"../images/gestionnaire-depenses.png",
+          "icone":"images/gestionnaire-depenses.png",
           "lien_github":"https://github.com/qbance/gestionnaireDeDepenses.git",
           "lien_internet":"https://qbance.github.io/gestionnaireDeDepenses/",
           "details":["Gestionnaire de dépenses d'après la méthode 50/30/20 ou 70/20/10."],
@@ -133,7 +133,7 @@
 
         {
           "nom": "API Météo",
-          "icone":"../images/API-meteo.png",
+          "icone":"images/API-meteo.png",
           "lien_github":"https://github.com/qbance/APImeteo.git",
           "lien_internet":"",
           "details":["API donnant la météo d'une ville recherchée par l'utilisateur."],
@@ -141,7 +141,7 @@
         },
         {
           "nom": "To-Do List",
-          "icone":"../images/toDoList.png",
+          "icone":"images/toDoList.png",
           "lien_github":"https://github.com/qbance/toDoList.git",
           "lien_internet":"https://qbance.github.io/toDoList/",
           "details":["To-Do List permettant d'ajouter une tache, de la modifier, de la supprimer et de l'afficher."],
@@ -225,7 +225,7 @@
       }
     ],
     "contact":{
-      "photo": "../images/Photo de profil.jpg",
+      "photo": "images/Photo de profil.jpg",
       "nom": "BANCE",
       "prenom": "Quentin",
       "poste":  "Développeur web",
