@@ -1,0 +1,82 @@
+@use 'variables' as *;
+
+.Conteneurskills{
+    color: $color-text;
+    margin-left:100px;
+    font-family: $font-mono;
+    align-items: stretch;
+
+    h2{
+        margin-top:50px;
+    }
+}
+
+#liste-skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+
+.liste-details-skill li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    width:300px;
+    text-align: justify;
+   
+}
+
+.puce {
+    color: $color-gray-dot;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.titre-skill {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .Conteneurskills {
+        margin-left: 80px; 
+        margin-right: 40px;
+        margin-bottom: 50px;
+    }
+
+    #liste-skills {
+        grid-template-columns: 1fr;
+        gap: 50px;    
+    }
+
+    .liste-details-skill li {
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .Conteneurskills {
+        margin-left: 20px; 
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    #liste-skills {
+        grid-template-columns: 1fr;
+        gap: 30px; 
+    }
+
+    .liste-details-skill li {
+        width: 100%; 
+    }
+}

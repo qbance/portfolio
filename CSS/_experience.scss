@@ -1,0 +1,204 @@
+@use 'variables' as *;
+
+#conteneurTitres{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    width: fit-content;      
+    align-self: center;      
+    margin: 50px auto;
+    color: $color-text;
+    font-family: $font-mono;   
+
+    #titreExperiences{
+         font-family: $font-sans;
+        color:$color-teal;
+    }
+}
+
+.conteneurCv{
+    margin-left: 20px;
+
+    .cv-content{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: $color-text;
+        font-family: $font-mono;
+
+        .categorie-experiences{
+            color:$color-green-terminal;
+        }
+
+        .colonne-experiences{
+            border-left: 2px solid $color-border;   
+            padding-left: 20px;             
+            position: relative;
+            width: 500px;
+            text-align: justify;  
+            margin-bottom:50px;
+        
+            &::before{
+                content:"";
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;           
+                background:$color-gray-dark;
+                position: absolute;
+                left: -6px;                     
+                top: 4px;                      
+            }
+    
+            .date-experiences{
+                margin-top:20px;
+                color:$color-yellow;
+            }
+
+            .poste-experiences, .missions-experiences{
+                margin-top:5px;
+            }
+
+            .poste-experiences{
+                color:$color-blue;
+            }
+
+            .entreprise-experiences{
+                color:$color-orange;
+            }
+
+            .ville-experiences{
+                font-style: italic;
+            }
+
+            .missions-experiences{
+                margin-left:20px;
+                color:$color-green;
+            }
+        }
+
+        .colonne-sidebar{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: fit-content;
+            margin: 0 auto;
+
+            a{
+                text-decoration: none;
+                color: $color-text;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+
+            .photo-profil-sidebar{
+                border-radius: 50%;
+                width:250px;
+                height:250px;
+            }
+
+            .denomination-sidebar{
+                margin-top:20px;
+                font-size:1.5rem;
+                color:$color-yellow;
+            }
+
+            .categorie-sidebar{
+                margin-top:10px;
+                color:$color-green-terminal;
+                margin-bottom: 10px;;
+            }
+
+            .email-sidebar{
+                margin-top:5px;
+                text-decoration: none;
+                color: inherit;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .poste-sidebar{
+                color:$color-blue;
+            }
+
+            .statut-sidebar{
+                font-style: italic;
+                color:$color-green;
+            }
+
+            .bouton-cv{
+                margin-top:20px;
+                padding:10px;
+                background: transparent;
+                color:$color-text;
+                border-radius: 10px;
+                border: 2px solid $color-text;
+                cursor:pointer;
+            
+                &:active {
+                    transform: scale(0.98);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cv-content {
+        grid-template-columns: 1fr; 
+        gap: 40px;
+    }
+
+    .colonne-sidebar {
+        margin: 0 auto 30px auto;
+        align-items: center;   
+        text-align: center;
+    }
+
+    .colonne-experiences {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto 40px auto;
+    }
+
+    #conteneurTitres {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteneurCv {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #conteneurTitres {
+        margin: 20px auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .colonne-sidebar {
+        .photo-profil-sidebar {
+            width: 180px;      
+            height: 180px;
+        }
+
+        .denomination-sidebar {
+            font-size: 1.25rem;
+        }
+    }
+
+    .colonne-experiences {
+        text-align: left;      
+        padding-left: 15px;
+
+        .missions-experiences {
+            margin-left: 10px;  
+        }
+    }
+}
+

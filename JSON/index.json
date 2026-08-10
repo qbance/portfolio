@@ -1,0 +1,253 @@
+{
+    "infos_perso": {
+    "intro": "Bonjour, je suis",
+    "nom": "Quentin BANCE",
+    "titre": "Développeur Web",
+    "photo": "../images/Photo de profil.jpg",
+    "description": [
+        "Actuellement en Bachelor Développeur Web."
+      ],
+      "liens": [
+      {
+        "nom": "GitHub",
+        "lien": "https://github.com/qbance",
+        "icone": "fa-brands fa-github"
+      },
+      {
+        "nom": "Linkedin",
+        "lien": "https://www.linkedin.com/in/quentinbance",
+        "icone": "fa-brands fa-linkedin"
+      },
+      {
+        "nom": "Email",
+        "lien": "bance.quentin@yahoo.fr",
+        "icone": "fa-solid fa-envelope"
+      }
+    ]
+  },
+
+  "a_propos":{
+    "titre": "A propos",
+    "icone":"fa-solid fa-chevron-down",
+    "sousTitre": "À-propos de moi",
+    "description" : [
+        "/* Autodidacte motivé, j’intègre cette année MyDigitalSchool Caen afin de parfaire mes connaissances. Avec plus que jamais envie d’apprendre, je souhaite trouver une entreprise pour mettre à disposition mes compétences techniques et informatiques, tout en ajoutant une réelle valeur ajoutée à vos équipes ! */"
+    ]
+  },
+   "infoFormation": 
+      { 
+        "id": "formation",
+        "icone": "fa-solid fa-chevron-down", 
+        "label": "Formation", 
+        "titre": "Bachelor Développeur Web (Bac+3)",
+        "ecole": "MyDigitalSchool",
+        "annee": "2026 - 2027" 
+      },
+      "infoStatut":
+      { 
+        "id": "statut",
+        "icone": "fas fa-briefcase", 
+        "label": "Statut", 
+        "valeur": "Recherche alternance", 
+        "details": "Disponible à partir de sept. 2026", 
+        "mobilite": "Mobilité en Normandie"
+      },
+      "infoLocalisation":
+      { 
+        "id": "localisation",
+        "icone": "fas fa-map-marker-alt", 
+        "label": "Localisation", 
+        "valeur": "Clécy, France", 
+        "details": "Permis B" 
+      },
+      "competences_section": {
+        "titre":"Compétences",
+        "icone":"fa-solid fa-chevron-down",
+        "liste":[
+          { "nom": "HTML", "icone": "fa-solid fa-code", "couleur": "#E34F26"},
+          { "nom": "CSS", "icone": "fa-solid fa-hashtag", "couleur": "#42A5F5" },
+          { "nom": "JavaScript", "icone":"fa-brands fa-square-js", "couleur": "#F7DF1E"},
+          { "nom": "PHP", "icone":"fa-brands fa-php", "couleur": "#8892BF" }
+        ]
+      },
+      "profil_section":{
+        "titre": "//Autodidacte",
+        "sousTitre": "Formation Web en autodidacte",
+        "sites":[
+          {"entete": "SORTIE", "nom": "Grafikart:", "photo":"../images/grafikart.png", "description":"Plateforme d'apprentissage web."},
+          {"entete": "SORTIE", "nom":"Openclassrooms:", "photo":"../images/openclassrooms.png", "description":"Formations certifiantes en ligne."},
+          {"entete": "SORTIE", "nom": "MDN:", "photo":"../images/MDN.png", "description":"Documentation de référence pour développeurs."}
+        ]
+      },
+      "profil_ecole":{
+        "titre": "Mon école",
+        "ecole":[
+          {"entete": "SORTIE", "nom": "MyDigitalSchool", "photo": "../images/mydigitalschool.png", "description":"MyDigitalSchool est une école française spécialisée dans les métiers du web et du numérique. Elle propose des cursus du post-bac jusqu'à Bac+5 (bachelors et cycles mastères) dans des domaines clés comme le marketing digital, le développement web, le webdesign, la création numérique et la cybersécurité."}
+        ]
+      },
+      "profil_passion":{
+        "titre": "Mes passions",
+        "passion": [
+          {"entete":"SORTIE", "nom":"Skateboard", "photo" : "../images/skateboard.png", "description":"Pratique urbaine et pumptrack."},
+          {"entete":"SORTIE", "nom":"Randonnée et Trekking", "photo" : "../images/rando-trek.png", "description":"Exploration des sentiers et aventures en autonomie."},
+           {"entete":"SORTIE", "nom":"Electronique", "photo" : "../images/electronique.png", "description":"Projets hardware et circuits."}
+       ]
+      },
+      "competences":{
+      "titre": ">_Mes compétences",
+      "skills":[
+        {
+          "nom": "HTML",
+          "icone":"devicon-html5-plain-wordmark colored",
+          "details":["Structure sémantique", "Accessibilité de base (attributs ARIA, contraste, navigation clavier)"]
+        },
+        {
+          "nom": "CSS",
+          "icone":"devicon-css3-plain-wordmark colored",
+          "details":["Flexbox", "Grid", "Responsive design / media queries", "Animations CSS (transitions, keyframes)", "Accessibilité de base — la partie qui relève du CSS (contraste des couleurs, visibilité du focus au clavier)"]
+        },
+        {
+          "nom": "Javascript",
+          "icone":"devicon-javascript-plain colored",
+          "details":["Variables, types, fonctions, boucles", "Manipulations du DOM", "Asynchronisme", "Tableaux et méthodes avancées (map, filter, reduce)", "Objets, destructuring, spread/rest", "Fetch API / consommation d'API REST", "Gestion d'erreurs (try/catch)", "Modules JS (import/export)"]
+        },
+        {
+          "nom": "PHP",
+          "icone":"devicon-php-plain colored",
+          "details":["Syntaxe de base, variables, fonctions, tableaux associatifs", "Programmation orientée objet (classes, constructeurs)"]
+        }
+      ]
+    },
+    "projets":{
+      "titre": ">_Mes projets",
+      "projects":
+      [
+      {
+          "nom": "Gestionnaire de dépenses",
+          "icone":"../images/gestionnaire-depenses.png",
+          "lien_github":"https://github.com/qbance/gestionnaireDeDepenses.git",
+          "lien_internet":"https://qbance.github.io/gestionnaireDeDepenses/",
+          "details":["Gestionnaire de dépenses d'après la méthode 50/30/20 ou 70/20/10."],
+          "languages":["HTML", "JavaScript", "CSS"]
+        },
+
+        {
+          "nom": "API Météo",
+          "icone":"../images/API-meteo.png",
+          "lien_github":"https://github.com/qbance/APImeteo.git",
+          "lien_internet":"",
+          "details":["API donnant la météo d'une ville recherchée par l'utilisateur."],
+          "languages":["HTML", "JavaScript", "CSS"]
+        },
+        {
+          "nom": "To-Do List",
+          "icone":"../images/toDoList.png",
+          "lien_github":"https://github.com/qbance/toDoList.git",
+          "lien_internet":"https://qbance.github.io/toDoList/",
+          "details":["To-Do List permettant d'ajouter une tache, de la modifier, de la supprimer et de l'afficher."],
+          "languages":["HTML", "JavaScript", "CSS"]
+        }
+        ]
+    },
+    "experiences": {
+    "titre": "// EXPÉRIENCES",
+    "sous_titre": "Mon parcours professionnel",
+    "description": "Mes responsabilités et réalisations passés.",
+    "categorie": ">_ parcours",
+    "liste": [
+      {
+        "date": "2026 - 2027",
+        "poste": "Développeur web",
+        "entreprise": "MyDigitalSchool Caen",
+        "ville": "Caen (14)",
+        "missions": [
+          "Étudiant en Bachelor Développeur Web."
+        ]
+      },
+      {
+        "date": "2019 - 2025",
+        "poste": "Ingénieur Qualification et Validation",
+        "entreprise": "Perkin Elmer Scientific comme préstataire pour Sanofi",
+        "ville": "Vitry-Sur-Seine (91)",
+        "missions": [
+          "Maintenance préventive et corrective d'équipements scientifiques multimarques.",
+          "Analyse et traitement de données via des logiciels métiers.",
+          "Rédaction de rapports techniques et de devis d'intervention.",
+          "Respect de procédures qualité et de protocoles techniques.",
+          "Formation et accompagnement technique d'ingénieurs."
+        ]
+      },
+      {
+        "date": "2019",
+        "poste": "Technicien en électronique",
+        "entreprise": "Efinor Eurelec",
+        "ville": "Cherbourg (50)",
+        "missions": [
+          "Diagnostique et résolution de problèmes techniques.",
+          "Analyse de documentation technique et recherche de solutions.",
+          "Validation et tests de systèmes électroniques.",
+          "Rigueur dans les procédures de contrôle et de dépannage."
+        ]
+      },
+      {
+        "date": "2016 - 2018",
+        "poste": "Technicien atelier",
+        "entreprise": "Alcon",
+        "ville": "Gennevilliers (92)",
+        "missions": [
+          "Reconditionnement de modules de dispositifs chirurgicaux ophtalmologiques.",
+          "Tests de modules de dispositifs chirurgicaux ophtalmologiques."
+        ]
+      },
+      {
+        "date": "2015 - 2016",
+        "poste": "Ingénieur Service client",
+        "entreprise": "I2A",
+        "ville": "Paris (75)",
+        "missions": [
+          "Diagnostique et résolution de problèmes techniques sur des systèmes automatisés.",
+          "Déploiement et mise en service d'équipements automatisés.",
+          "Documentation technique et suivi des interventions.",
+          "Organisation autonome des interventions sur un secteur dédié."
+        ]
+      },
+        {
+        "date": "2014 - 2015",
+        "poste": "Ingénieur Service client en alternance",
+        "entreprise": "Beckman Coulter",
+        "ville": "Villepinte (93)",
+        "missions": [
+          "Diagnostique et dépannage de systèmes automatisés.",
+          "Tests, validation et remise en service d'équipements techniques.",
+          "Optimisation de la fiabilité et remise en service des systèmes.",
+          "Interventions techniques en atelier et sur site client."
+        ]
+      }
+    ],
+    "contact":{
+      "photo": "../images/Photo de profil.jpg",
+      "nom": "BANCE",
+      "prenom": "Quentin",
+      "poste":  "Développeur web",
+      "statut": "Étudiant",
+      "categorie": ">_Contact",
+      "email": "bance.quentin@yahoo.fr",
+      "telephone": "Sur demande",
+      "localisation": "Clécy, France"
+    },
+
+    "social_link":{
+    "categorie" : ">_ Réseaux Sociaux",
+    "resaux":[
+    {
+      "nom":"Github",
+      "lien":"https://github.com/qbance"
+    },
+    {
+      "nom":"Linkedin",
+      "lien":"www.linkedin.com/in/quentinbance"
+    }
+    ]
+  }
+     }
+}
