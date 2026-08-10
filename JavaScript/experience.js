@@ -1,6 +1,6 @@
 async function chargerCv(){
     try {
-        const response = await fetch('../JSON/index.json');
+        const response = await fetch('JSON/index.json');
         const data = await response.json();
 
        const experiences = data.experiences;
@@ -104,7 +104,7 @@ boutonCv.textContent = "Télécharger mon CV";
 colonneSidebar.appendChild(boutonCv);
 
 boutonCv.addEventListener("click", function(){
-    window.open("../Documents/CV_Quentin_BANCE.pdf", "_blank");
+    window.open("Documents/CV_Quentin_BANCE.pdf", "_blank");
 });
     
        const detailsExperiences= experiences.liste;
