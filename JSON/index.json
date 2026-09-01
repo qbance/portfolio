@@ -116,6 +116,11 @@
           "nom": "PHP",
           "icone":"devicon-php-plain colored",
           "details":["Syntaxe de base, variables, fonctions, tableaux associatifs", "Programmation orientée objet (classes, constructeurs)"]
+        },
+        {
+          "nom": "React",
+          "icone": "devicon-react-original colored",
+          "details": ["Composants (JSX)", "State et props", "Hooks de base (useState, useEffect)"]
         }
       ]
     },
