@@ -67,7 +67,8 @@
           { "nom": "HTML", "icone": "fa-solid fa-code", "couleur": "#E34F26"},
           { "nom": "CSS", "icone": "fa-solid fa-hashtag", "couleur": "#42A5F5" },
           { "nom": "JavaScript", "icone":"fa-brands fa-square-js", "couleur": "#F7DF1E"},
-          { "nom": "PHP", "icone":"fa-brands fa-php", "couleur": "#8892BF" }
+          { "nom": "PHP", "icone":"fa-brands fa-php", "couleur": "#8892BF" },
+          { "nom": "React", "icone":"fa-brands fa-react", "couleur": "#61DBFB" }
         ]
       },
       "profil_section":{
@@ -122,6 +123,14 @@
       "titre": ">_Mes projets",
       "projects":
       [
+          {
+          "nom": "Recherche de films et séries",
+          "icone":"../images/cinefilm.png",
+          "lien_github":"https://github.com/qbance/CineSearch.git",
+          "lien_internet":"https://cine-search-sable.vercel.app/",
+          "details":["Site permettant de rechercher un film ou une série pour avoir les informations correspondantes."],
+          "languages":["React", "CSS"]
+        },
       {
           "nom": "Gestionnaire de dépenses",
           "icone":"images/gestionnaire-depenses.png",
