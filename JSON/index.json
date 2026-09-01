@@ -125,7 +125,7 @@
       [
           {
           "nom": "Recherche de films et séries",
-          "icone":"../images/cinefilm.png",
+          "icone":"images/cinefilm.png",
           "lien_github":"https://github.com/qbance/CineSearch.git",
           "lien_internet":"https://cine-search-sable.vercel.app/",
           "details":["Site permettant de rechercher un film ou une série pour avoir les informations correspondantes."],
