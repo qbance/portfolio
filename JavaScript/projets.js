@@ -20,7 +20,8 @@ async function chargerProjets(){
             "HTML": "devicon-html5-plain colored",
             "CSS": "devicon-css3-plain colored",
             "JavaScript": "devicon-javascript-plain colored",
-            "PHP": "devicon-php-plain colored"
+            "PHP": "devicon-php-plain colored",
+            "React": "devicon-react-original colored"
         };
 
         for (const project of projects){
