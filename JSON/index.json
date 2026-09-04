@@ -5,7 +5,7 @@
     "titre": "Développeur Web",
     "photo": "images/Photo de profil.jpg",
     "description": [
-        "Actuellement en Bachelor Développeur Web."
+        "Actuellement en Bachelor Concepteur Développeur d'Applications."
       ],
       "liens": [
       {
@@ -31,7 +31,7 @@
     "icone":"fa-solid fa-chevron-down",
     "sousTitre": "À-propos de moi",
     "description" : [
-        "/* Autodidacte motivé, j’intègre cette année MyDigitalSchool Caen afin de parfaire mes connaissances. Avec plus que jamais envie d’apprendre, je souhaite trouver une entreprise pour mettre à disposition mes compétences techniques et informatiques, tout en ajoutant une réelle valeur ajoutée à vos équipes ! */"
+        "/* Autodidacte motivé, j’intègre cette année CESI Caen afin de parfaire mes connaissances. Avec plus que jamais envie d’apprendre, je souhaite trouver une entreprise pour mettre à disposition mes compétences techniques et informatiques, tout en ajoutant une réelle valeur ajoutée à vos équipes ! */"
     ]
   },
    "infoFormation": 
@@ -39,8 +39,8 @@
         "id": "formation",
         "icone": "fa-solid fa-chevron-down", 
         "label": "Formation", 
-        "titre": "Bachelor Développeur Web (Bac+3)",
-        "ecole": "MyDigitalSchool",
+        "titre": "Bachelor Concepteur Développeur d'Applications",
+        "ecole": "CESI Caen",
         "annee": "2026 - 2027" 
       },
       "infoStatut":
@@ -49,7 +49,7 @@
         "icone": "fas fa-briefcase", 
         "label": "Statut", 
         "valeur": "Recherche alternance", 
-        "details": "Disponible à partir de sept. 2026", 
+        "details": "Disponible à partir de oct. 2026", 
         "mobilite": "Mobilité en Normandie"
       },
       "infoLocalisation":
@@ -83,7 +83,7 @@
       "profil_ecole":{
         "titre": "Mon école",
         "ecole":[
-          {"entete": "SORTIE", "nom": "MyDigitalSchool", "photo": "images/mydigitalschool.png", "description":"MyDigitalSchool est une école française spécialisée dans les métiers du web et du numérique. Elle propose des cursus du post-bac jusqu'à Bac+5 (bachelors et cycles mastères) dans des domaines clés comme le marketing digital, le développement web, le webdesign, la création numérique et la cybersécurité."}
+          {"entete": "SORTIE", "nom": "CESI Caen", "photo": "images/CESI.png", "description":"CESI est une école d'ingénieurs française reconnue, présente sur de nombreux campus en France. Elle propose des cursus du post-bac jusqu'à Bac+5 (bachelors et cycles ingénieurs) dans des domaines clés comme le développement d'applications, l'informatique et les technologies numériques, avec une pédagogie axée sur les projets collaboratifs et la professionnalisation."}
         ]
       },
       "profil_passion":{
@@ -171,11 +171,11 @@
     "liste": [
       {
         "date": "2026 - 2027",
-        "poste": "Développeur web",
-        "entreprise": "MyDigitalSchool Caen",
+        "poste": "Concepteur Développeur d'Applications",
+        "entreprise": "CESI Caen",
         "ville": "Caen (14)",
         "missions": [
-          "Étudiant en Bachelor Développeur Web."
+          "Étudiant en Bachelor Concepteur Développeur d'Applications"
         ]
       },
       {
