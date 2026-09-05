@@ -149,7 +149,7 @@
           "nom": "API Météo",
           "icone":"images/API-meteo.png",
           "lien_github":"https://github.com/qbance/APImeteo.git",
-          "lien_internet":"",
+          "lien_internet":"https://qbance.github.io/APImeteo/",
           "details":["API donnant la météo d'une ville recherchée par l'utilisateur."],
           "languages":["HTML", "JavaScript", "CSS"]
         },
