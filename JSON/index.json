@@ -115,7 +115,7 @@
         {
           "nom": "PHP",
           "icone":"devicon-php-plain colored",
-          "details":["Syntaxe de base, variables, fonctions, tableaux associatifs", "Programmation orientée objet (classes, constructeurs)"]
+          "details":["Syntaxe de base, variables, fonctions, tableaux associatifs", "Formulaires HTML (GET/POST) et validation de données" ,"Programmation orientée objet (classes, constructeurs, héritage, encapsulation, interfaces)", "Manipulation de fichiers, sessions"]
         },
         {
           "nom": "React",
