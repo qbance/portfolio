@@ -132,7 +132,7 @@
           "nom": "Mini CRM",
           "icone":"images/mini-CRM.png",
           "lien_github":"https://github.com/qbance/Mini-CRM.git",
-          "lien_internet":"mini-crm.freepage.cc",
+          "lien_internet":"https://mini-crm.freepage.cc/",
           "details":["Site CRM permettant de de gérer des clients dans une bdd entreprise."],
           "languages":["PHP", "SQL"]
         },
