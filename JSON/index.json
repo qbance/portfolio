@@ -128,7 +128,15 @@
       "titre": ">_Mes projets",
       "projects":
       [
-          {
+        {
+          "nom": "Mini CRM",
+          "icone":"images/mini-CRM.png",
+          "lien_github":"https://github.com/qbance/Mini-CRM.git",
+          "lien_internet":"mini-crm.freepage.cc",
+          "details":["Site CRM permettant de de gérer des clients dans une bdd entreprise."],
+          "languages":["PHP", "SQL"]
+        },
+        {
           "nom": "Recherche de films et séries",
           "icone":"images/cinefilm.png",
           "lien_github":"https://github.com/qbance/CineSearch.git",
