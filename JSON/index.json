@@ -68,7 +68,7 @@
           { "nom": "CSS", "icone": "fa-solid fa-hashtag", "couleur": "#42A5F5" },
           { "nom": "JavaScript", "icone":"fa-brands fa-square-js", "couleur": "#F7DF1E"},
           { "nom": "PHP", "icone":"fa-brands fa-php", "couleur": "#8892BF" },
-          { "nom": "SQL", "icone":"fa-solid fa-database", "couleur": "#FFD700" },
+          { "nom": "SQL", "icone":"devicon-database-plain colored", "couleur": "#FFD700" },
           { "nom": "React", "icone":"fa-brands fa-react", "couleur": "#61DBFB" }
         ]
       },
@@ -120,7 +120,7 @@
         },
              {
           "nom": "SQL",
-          "icone":"fa-solid fa-database",
+          "icone":"devicon-database-plain colored",
           "details":["Création et gestion de tables (types de données, clés primaires, contraintes)", "Requêtes CRUD (SELECT, INSERT, UPDATE, DELETE)", "Filtrage et recherche (WHERE, opérateurs logiques, LIKE)", "Gestion des types de données (ENUM, TIMESTAMP, CURRENT_TIMESTAMP)", "Sécurité avec PDO (requêtes préparées contre les injections SQL)", "phpMyAdmin / Outils d’administration (gestion et export de bases de données)"]
         },
         {
