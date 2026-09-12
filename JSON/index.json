@@ -70,7 +70,7 @@
           { "nom": "PHP", "icone":"fa-brands fa-php", "couleur": "#8892BF" },
           { "nom": "SQL", "icone":"fa-solid fa-database", "couleur": "#FFD700" },
           { "nom": "React", "icone":"fa-brands fa-react", "couleur": "#61DBFB" },
-          { "nom": "Git", "icone":"fa-brands fa-git-alt", "couleur": "#F1502F" },
+          { "nom": "Git", "icone":"fa-brands fa-git-alt", "couleur": "#F1502F" }
         ]
       },
       "profil_section":{
