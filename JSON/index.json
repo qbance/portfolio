@@ -257,7 +257,8 @@
           "Interventions techniques en atelier et sur site client."
         ]
       }
-    ],
+    ]
+    },
     "contact":{
       "photo": "images/Photo de profil.jpg",
       "nom": "BANCE",
