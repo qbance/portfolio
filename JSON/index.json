@@ -69,7 +69,8 @@
           { "nom": "JavaScript", "icone":"fa-brands fa-square-js", "couleur": "#F7DF1E"},
           { "nom": "PHP", "icone":"fa-brands fa-php", "couleur": "#8892BF" },
           { "nom": "SQL", "icone":"fa-solid fa-database", "couleur": "#FFD700" },
-          { "nom": "React", "icone":"fa-brands fa-react", "couleur": "#61DBFB" }
+          { "nom": "React", "icone":"fa-brands fa-react", "couleur": "#61DBFB" },
+          { "nom": "Git", "icone":"fa-brands fa-git-alt", "couleur": "#F1502F" },
         ]
       },
       "profil_section":{
@@ -127,6 +128,11 @@
           "nom": "React",
           "icone": "devicon-react-original colored",
           "details": ["Composants (JSX)", "State et props", "Hooks de base (useState, useEffect)"]
+        },
+          {
+          "nom": "Git",
+          "icone": "devicon-git-plain colored",
+          "details": ["Initialisation et configuration de dépôts (git init, git config)", "Gestion du versionnage quotidien (git add, git commit, git status)", "Suivi de l'historique et des modifications (git log, git diff)", "Travail en branches et fusion (git branch, git checkout / switch, git merge)", "Synchronisation avec un dépôt distant (git remote, git push, git pull, git clone)"]
         }
       ]
     },
