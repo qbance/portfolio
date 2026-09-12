@@ -132,7 +132,13 @@
           {
           "nom": "Git",
           "icone": "devicon-git-plain colored",
-          "details": ["Initialisation et configuration de dépôts (git init, git config)", "Gestion du versionnage quotidien (git add, git commit, git status)", "Suivi de l'historique et des modifications (git log, git diff)", "Travail en branches et fusion (git branch, git checkout / switch, git merge)", "Synchronisation avec un dépôt distant (git remote, git push, git pull, git clone)"]
+          "details": [
+            "Initialisation et configuration de dépôts (git init, git config)",
+            "Gestion du versionnage quotidien (git add, git commit, git status)",
+            "Suivi de l'historique et des modifications (git log, git diff)",
+            "Travail en branches et fusion (git branch, git checkout / switch, git merge)",
+            "Synchronisation avec un dépôt distant (git remote, git push, git pull, git clone)"
+          ]
         }
       ]
     },
@@ -257,8 +263,7 @@
           "Interventions techniques en atelier et sur site client."
         ]
       }
-    ]
-    },
+    ],
     "contact":{
       "photo": "images/Photo de profil.jpg",
       "nom": "BANCE",
