@@ -151,7 +151,7 @@
           "icone":"images/mini-CRM.png",
           "lien_github":"https://github.com/qbance/Mini-CRM.git",
           "lien_internet":"http://mini-crm.freepage.cc/",
-          "details":["Site CRM permettant de de gérer des clients dans une bdd entreprise."],
+          "details":["Site CRM permettant de gérer des clients dans une bdd entreprise."],
           "languages":["PHP", "SQL"]
         },
         {
