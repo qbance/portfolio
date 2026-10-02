@@ -5,7 +5,7 @@
     "titre": "Développeur Web",
     "photo": "images/Photo de profil.jpg",
     "description": [
-        "Actuellement en Bachelor Concepteur Développeur d'Applications."
+        "Actuellement en Formation Developpeur Informatique (RNCP niveau 5)."
       ],
       "liens": [
       {
@@ -31,7 +31,7 @@
     "icone":"fa-solid fa-chevron-down",
     "sousTitre": "À-propos de moi",
     "description" : [
-        "/* Autodidacte motivé, j’intègre cette année CESI Caen afin de parfaire mes connaissances. Avec plus que jamais envie d’apprendre, je souhaite trouver une entreprise pour mettre à disposition mes compétences techniques et informatiques, tout en ajoutant une réelle valeur ajoutée à vos équipes ! */"
+        "/* Autodidacte motivé, je prépare un titre RNCP de niveau 5 Développeur Informatique. Prêt à m'investir, je recherche une alternance pour mettre à disposition mes compétences techniques et informatiques, tout en apportant une réelle valeur ajoutée à vos équipes ! */"
     ]
   },
    "infoFormation": 
@@ -39,8 +39,8 @@
         "id": "formation",
         "icone": "fa-solid fa-chevron-down", 
         "label": "Formation", 
-        "titre": "Bachelor Concepteur Développeur d'Applications",
-        "ecole": "CESI Caen",
+        "titre": "Developpeur Informatique (titre RNCP niveau 5)",
+        "ecole": "GRETA Caen",
         "annee": "2026 - 2027" 
       },
       "infoStatut":
@@ -85,7 +85,7 @@
       "profil_ecole":{
         "titre": "Mon école",
         "ecole":[
-          {"entete": "SORTIE", "nom": "CESI Caen", "photo": "images/CESI.png", "description":"CESI est une école d'ingénieurs française reconnue, présente sur de nombreux campus en France. Elle propose des cursus du post-bac jusqu'à Bac+5 (bachelors et cycles ingénieurs) dans des domaines clés comme le développement d'applications, l'informatique et les technologies numériques, avec une pédagogie axée sur les projets collaboratifs et la professionnalisation."}
+          {"entete": "SORTIE", "nom": "GRETA Caen", "photo": "images/GRETA.png", "description":"Le GRETA de Caen est un organisme de formation professionnelle proposant des parcours adaptés aux besoins des adultes et des entreprises. Il accompagne les apprenants dans le développement de leurs compétences, la reconversion professionnelle et l’acquisition de nouvelles qualifications, avec une approche axée sur la pratique et l’insertion professionnelle."}
         ]
       },
       "profil_passion":{
