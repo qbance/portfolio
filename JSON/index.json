@@ -210,9 +210,10 @@
         "entreprise": "Cotral",
         "ville": "Condé-sur-Noireau  (14)",
         "missions": [
-          "Refonte d'un outil métier interne. Pilotage de développement assisté par IA (expression du besoin,découpage modulaire, tests).",
-          "Découverte d'une stack complète (Angular, API.NET, PostgreSQL, Docker).",
-          "Analyse fonctionnelle, règles métiers et mise en place de l'authentification."
+          "Refonte d'un outil métier interne, jusqu'ici développé en WinDev. Pilotage de développement assisté par IA.",
+          "Découverte d'une stack complète (Angular, .NET, PostgreSQL, Docker).",
+          "Formulation du besoin, découpage en modules relecture et tests du code.",
+          "Analyse de l'ancien logiciel et vérification des écrans avec les utilisateurs."
         ]
       },
       {
