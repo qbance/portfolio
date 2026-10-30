@@ -208,18 +208,18 @@
         "date": "2026",
         "poste": "Développeur web - Stage",
         "entreprise": "Cotral",
-        "ville": "Condé-sur-Noireau  (14)",
+        "ville": "Condé-sur-Noireau (14)",
         "missions": [
-          "Refonte d'un outil métier interne, jusqu'ici développé en WinDev. Pilotage de développement assisté par IA.",
-          "Découverte d'une stack complète (Angular, .NET, PostgreSQL, Docker).",
-          "Formulation du besoin, découpage en modules relecture et tests du code.",
+          "Refonte d'un outil métier interne, jusqu'ici développé en WinDev. Pilotage de développement assisté par IA (Claude Code).",
+          "Découverte d'une stack complète (Angular, .NET, SQL, Docker, GitLab).",
+          "Formulation du besoin, découpage en modules, relecture et tests du code.",
           "Analyse de l'ancien logiciel et vérification des écrans avec les utilisateurs."
         ]
       },
       {
         "date": "2019 - 2025",
         "poste": "Ingénieur Qualification et Validation",
-        "entreprise": "Perkin Elmer Scientific comme préstataire pour Sanofi",
+        "entreprise": "PerkinElmer Scientific comme préstataire pour Sanofi",
         "ville": "Vitry-Sur-Seine (91)",
         "missions": [
           "Maintenance préventive et corrective d'équipements scientifiques multimarques.",
