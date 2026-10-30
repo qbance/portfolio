@@ -204,6 +204,17 @@
           "Étudiant Développeur Informatique (RNCP niveau 5)"
         ]
       },
+        {
+        "date": "2026",
+        "poste": "Développeur web - Stage",
+        "entreprise": "Cotral",
+        "ville": "Condé-sur-Noireau  (14)",
+        "missions": [
+          "Refonte d'un outil métier interne. Pilotage de développement assisté par IA (expression du besoin,découpage modulaire, tests).",
+          "Découverte d'une stack complète (Angular, API.NET, PostgreSQL, Docker).",
+          "Analyse fonctionnelle, règles métiers et mise en place de l'authentification."
+        ]
+      },
       {
         "date": "2019 - 2025",
         "poste": "Ingénieur Qualification et Validation",
