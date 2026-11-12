@@ -31,7 +31,7 @@
     "icone":"fa-solid fa-chevron-down",
     "sousTitre": "À-propos de moi",
     "description" : [
-        "/* Autodidacte motivé, je prépare un titre RNCP de niveau 5 Développeur Informatique. Prêt à m'investir, je recherche une alternance pour mettre à disposition mes compétences techniques et informatiques, tout en apportant une réelle valeur ajoutée à vos équipes ! */"
+        "/* Autodidacte passionné et rigoureux, je prépare actuellement le titre RNCP de niveau 5 Développeur Web et Web Mobile. Prêt à m'investir pleinement, je souhaite mettre mes compétences techniques et ma capacité d'adaptation au service de vos équipes pour concevoir des applications web performantes. */"
     ]
   },
    "infoFormation": 
@@ -39,8 +39,8 @@
         "id": "formation",
         "icone": "fa-solid fa-chevron-down", 
         "label": "Formation", 
-        "titre": "Developpeur Informatique (titre RNCP niveau 5)",
-        "ecole": "GRETA Caen",
+        "titre": "Developpeur Web et Web Mobile (titre RNCP niveau 5)",
+        "ecole": "Studi",
         "annee": "2026 - 2027" 
       },
       "infoStatut":
@@ -48,8 +48,8 @@
         "id": "statut",
         "icone": "fas fa-briefcase", 
         "label": "Statut", 
-        "valeur": "Recherche alternance", 
-        "details": "Disponible à partir de oct. 2026", 
+        "valeur": "En cours de formation", 
+        "details": "Titre RNCP Niveau 5 (DWWM)", 
         "mobilite": "Mobilité en Normandie"
       },
       "infoLocalisation":
@@ -85,7 +85,7 @@
       "profil_ecole":{
         "titre": "Mon école",
         "ecole":[
-          {"entete": "SORTIE", "nom": "GRETA Caen", "photo": "images/GRETA.png", "description":"Le GRETA de Caen est un organisme de formation professionnelle proposant des parcours adaptés aux besoins des adultes et des entreprises. Il accompagne les apprenants dans le développement de leurs compétences, la reconversion professionnelle et l’acquisition de nouvelles qualifications, avec une approche axée sur la pratique et l’insertion professionnelle."}
+          {"entete": "SORTIE", "nom": "Studi", "photo": "images/STUDI.png", "description":"Studi est une école en ligne spécialisée dans la formation professionnelle à distance, proposant des parcours diplômants adaptés aux projets de reconversion et de montée en compétences. Elle accompagne les apprenants vers l'acquisition de qualifications reconnues par l'État grâce à une pédagogie flexible, axée sur la pratique et l'employabilité. "}
         ]
       },
       "profil_passion":{
